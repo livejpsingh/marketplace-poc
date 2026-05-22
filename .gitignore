@@ -1,0 +1,65 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Maven ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### Local configuration ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-*.local.properties
+application-*.local.yml
+
+### OS generated files ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Temporary files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
